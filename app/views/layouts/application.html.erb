@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stock & Movies - Feel the love!!!</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<nav class='nav'>
+		<ul>
+			<li><a href="/welcome">Home</a></li>
+			<li><a href="/movies">Movies Info</a></li>
+			<li><a href="/stock">Stocks Information</a></li>
+			<li><a href="/about">About</a></li>
+			<li><a href="/faq">FAQ</a></li>
+		</ul>
+	</nav>
+
+<%= yield %>
+
+</body>
+</html>

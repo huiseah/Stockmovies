@@ -1,0 +1,23 @@
+body {
+  color: ;
+  background:url(/water.jpeg);
+  margin: 30px;
+}
+
+.quote {
+  color: #E47237;
+}
+
+.opener, .nav {
+  padding: 25px;
+  width: 50%;
+  background-color: white;
+  opacity: 0.65;
+  margin: 1em auto;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.sub1 {
+    text-decoration: none;
+  }
